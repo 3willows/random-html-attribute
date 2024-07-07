@@ -2,7 +2,7 @@
 
 I created this tiny project in order to write about my process to help beginner web devs!
 
-[A Tiny Project, From Inception to Deployment](https://healeycodes.github.io/javascript/webdev/glitch/tutorial/2019/05/12/tiny-project-to-completion.html)
+Write up: [A Tiny Project, From Inception to Deployment](https://healeycodes.com/tiny-project-to-completion)
 
 <br>
 
