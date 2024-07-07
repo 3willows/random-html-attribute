@@ -12,8 +12,8 @@ app.get('/rnd', (req, res) => res.send(rndPage()));
 
 // listen for requests :)
 
-// const listener = app.listen(process.env.PORT, function() {
-//   console.log('Your app is listening on port ' + listener.address().port);
-// });
+const listener = app.listen(process.env.PORT, function() {
+  console.log('Your app is listening on port ' + listener.address().port);
+});
 
 module.exports = app
