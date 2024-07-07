@@ -11,6 +11,9 @@ app.get('/', (req, res) => res.sendFile(__dirname + '/views/index.html'));
 app.get('/rnd', (req, res) => res.send(rndPage()));
 
 // listen for requests :)
+
 // const listener = app.listen(process.env.PORT, function() {
 //   console.log('Your app is listening on port ' + listener.address().port);
 // });
+
+module.exports = app
