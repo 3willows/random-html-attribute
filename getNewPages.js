@@ -5,21 +5,26 @@ const puppeteer = require("puppeteer")
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
   await page.goto(
-    "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture"
+    "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes"
   )
-
   const pageEntries = await page.evaluate(() => {
-    const item = document.querySelector(
-      "#content > article > section:nth-child(3) > div > ol > li:nth-child(1)")
+    const table = document.querySelector(
+      "#content > article > section:nth-child(3) > div > figure > table"
+    )
+    const allAnchors = table.querySelectorAll("a")
 
-      return item.innerHTML
-    
-  })
+    // Create an array to store the innerHTML of each anchor
+    const anchorContents = Array.from(allAnchors).map(
+      (anchor) => anchor.innerHTML
+    )
 
-  // Save page objects to JSON on disk
+    return anchorContents
+    })
+
+    // Save page objects to JSON on disk
 
   const pageJSON = JSON.stringify({ content: `${pageEntries}` })
-    fs.writeFile("./data/test.json", pageJSON, function (err) {
+  fs.writeFile("./data/test.json", pageJSON, function (err) {
     if (err) {
       return console.log(err)
     }
