@@ -4,7 +4,7 @@
   "description": "Random pages from the MDN JavaScript Docs, delivered fresh to your browser 🌎.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "express": "^4.19.0",
