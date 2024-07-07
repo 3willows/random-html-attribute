@@ -23,10 +23,9 @@ const puppeteer = require("puppeteer")
     chunkRows.forEach((row) => {
       const a = row[0].querySelector("a")
       const page = {
-        link: `<a class="page-link "href="${a?.href}">${a?.innerText}</a>`,
-        text: `<div class="page-text">${
-          row[1]?.querySelector("td")?.innerText
-        }</div>`,
+        rowZero: `${row[0]?.innerText}`,
+        rowOne: `${row[1]?.innerText}`,
+        rowTwo: `${row[2]?.innerText}`
       }
       pageEntries.push(page)
     })
