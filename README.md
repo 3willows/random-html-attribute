@@ -1,6 +1,8 @@
 ### [Random HTML Attribute](https://random-mdn-page-b6lncbu8p-jasper-wongs-projects.vercel.app/)
 
-Fork of this project by Andrew Healey: [A Tiny Project, From Inception to Deployment](https://healeycodes.com/tiny-project-to-completion)
+Fork of this project by Andrew Healey: [A Tiny Project, From Inception to Deployment](https://healeycodes.com/tiny-project-to-completion).
+
+A deployment of [the original repo](https://github.com/healeycodes/random-mdn-page) is [here](https://random-mdn-page-deploy.vercel.app/).
 
 #### Changes 
 
