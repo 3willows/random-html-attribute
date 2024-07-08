@@ -23,9 +23,10 @@ app.get("/", (_, res) => {
 })
 
 // listen for requests :)
+// need to comment out for deployment
 
-const listener = app.listen(process.env.PORT, function () {
-  console.log("Your app is listening on port " + listener.address().port)
-})
+// const listener = app.listen(process.env.PORT, function () {
+//   console.log("Your app is listening on port " + listener.address().port)
+// })
 
 module.exports = app
