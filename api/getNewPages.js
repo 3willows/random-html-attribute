@@ -26,7 +26,8 @@ const puppeteer = require("puppeteer")
         Anchor: `${a}`, 
         AttributeName: `${row[0]?.innerText}`,
         Elements: `${row[1]?.innerText}`,
-        Description: `${row[2]?.innerText}`
+        Description: `${row[2]?.innerText}`,
+        Title: `${a?.title}`
       }
       pageEntries.push(page)
     })
