@@ -4,13 +4,12 @@ require('dotenv').config()
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
+app.set('view engine', 'ejs');
 
 const pages = require('./data/pages.json');
 const rndPage = () => pages[Math.floor(Math.random() * pages.length)];
 
-app.get('/', (req, res) => res.sendFile(__dirname + '/views/index.html'));
-
-app.get('/rnd', (req, res) => res.send(rndPage()));
+app.get('/', (req, res) => res.render(__dirname + '/views/index'));
 
 // listen for requests :)
 
