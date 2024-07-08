@@ -35,7 +35,7 @@ const puppeteer = require("puppeteer")
   // Save page objects to JSON on disk
 
   const pageJSON = JSON.stringify(pageEntries)
-  fs.writeFile("./data/test.json", pageJSON, function (err) {
+  fs.writeFile("./data/pages.json", pageJSON, function (err) {
     if (err) {
       return console.log(err)
     }
