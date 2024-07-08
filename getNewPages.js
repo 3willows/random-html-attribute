@@ -12,7 +12,7 @@ const puppeteer = require("puppeteer")
       "#content > article > section:nth-child(3) > div > figure > table"
     )
     // There are three <tr>s to a row
-    const allRows = indexTable.querySelectorAll("tr")
+    const allRows = indexTable.querySelectorAll("td")
     const chunkRows = []
     for (var i = 0; i < allRows.length; i += 3) {
       chunkRows.push([allRows[i], allRows[i + 1], allRows[i + 2]])
@@ -23,9 +23,9 @@ const puppeteer = require("puppeteer")
     chunkRows.forEach((row) => {
       const a = row[0].querySelector("a")
       const page = {
-        rowZero: `${row[0]?.innerText}`,
-        rowOne: `${row[1]?.innerText}`,
-        rowTwo: `${row[2]?.innerText}`
+        AttributeName: `${row[0]?.innerText}`,
+        Elements: `${row[1]?.innerText}`,
+        Description: `${row[2]?.innerText}`
       }
       pageEntries.push(page)
     })
