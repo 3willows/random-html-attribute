@@ -23,6 +23,7 @@ const puppeteer = require("puppeteer")
     chunkRows.forEach((row) => {
       const a = row[0].querySelector("a")
       const page = {
+        Anchor: `${a}`, 
         AttributeName: `${row[0]?.innerText}`,
         Elements: `${row[1]?.innerText}`,
         Description: `${row[2]?.innerText}`
