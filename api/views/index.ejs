@@ -23,18 +23,25 @@
       <h2 class="subtitle faded">modified by <a href="https://github.com/3willows/random-mdn-page">@3willows</a></h2>
       <main>
         <div class="box">    
-          <div class="page-font page-link-con"></div>
-          <div class="page-font page-text-con"></div>
+          <div class="page-font page-link-con">
+            <%= AttributeName %>
+          </div>
+          <div class="page-font page-text-con">
+            <%= Elements %>
+          </div>
+          <div class="page-font page-text-con">
+            <%= Description %>
+          </div>
         </div>
         <div class="has-text-centered">
-          <button class="button is-primary is-medium another" onclick="newPage();">Another</button>
+          <!-- modify the onClick here so it simply reloads the page -->
+          <button class="button is-primary is-medium another" onclick="window.location.reload();">Another</button>
         </div>        
       </main>
       <!-- include the Glitch button to show what the webpage is about and
             to make it easier for folks to view source and remix -->
       <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
     </div>
-    <script src="/client.js" defer></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="https://button.glitch.me/button.js"></script>
   </body>
