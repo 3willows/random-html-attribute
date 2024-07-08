@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Random MDN page</title>
-    <meta name="description" content="A random MDN page, delivered fresh.">
-    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/bulma.min.css">
-    <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
-  </head>
-  <body>
-    <div class="github-star">
-      <a class="github-button" href="https://github.com/healeycodes" data-size="large" aria-label="Follow @healeycodes on GitHub">Follow</a>
-      <a class="github-button" href="https://github.com/healeycodes/random-mdn-page" data-icon="octicon-star" data-size="large" aria-label="Star healeycodes/random-mdn-page on GitHub">Star</a>
-    </div>
-    <div class="page-font page-wrap">
-      <h1 class="title">Random HTML Attributes</h1>
-      <h2 class="subtitle faded">by <a href="https://twitter.com/healeycodes">@healeycodes</a> and modified by <a href="https://github.com/3willows/random-mdn-page">@3willows</a></h2>
-      <main>
-        <div class="box">    
-          <div class="page-font page-link-con">
-            Attribute: <%= AttributeName %>
-          </div>
-          <div class="page-font page-text-con">
-            Elements: <%= Elements %>
-          </div>
-          <div class="page-font page-text-con">
-            <%= Description %>
-          </div>
+<head>
+  <title>Random HTML Attribute</title>
+  <meta name="description" content="A random MDN page, delivered fresh.">
+  <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/bulma.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+</head>
+
+<body>
+  <div class="github-star">
+    <a class="github-button" href="https://github.com/healeycodes" data-size="large"
+      aria-label="Follow @healeycodes on GitHub">Follow</a>
+    <a class="github-button" href="https://github.com/healeycodes/random-mdn-page" data-icon="octicon-star"
+      data-size="large" aria-label="Star healeycodes/random-mdn-page on GitHub">Star</a>
+  </div>
+  <div class="page-font page-wrap">
+    <h1 class="title">Random HTML Attribute</h1>
+    <h2 class="subtitle faded">by <a href="https://twitter.com/healeycodes">@healeycodes</a> and remix by <a
+        href="https://github.com/3willows/random-mdn-page">@3willows</a></h2>
+    <main>
+      <div class="box">
+        <div class="page-font page-link-con">
+          <code><a href=<%= Anchor %> target="_blank" rel="noopener noreferrer">
+            <%= AttributeName %></a></code>
         </div>
-        <div class="has-text-centered">
-          <!-- modify the onClick here so it simply reloads the page -->
-          <button class="button is-primary is-medium another" onclick="window.location.reload();">Another</button>
-        </div>        
-      </main>
-      <!-- include the Glitch button to show what the webpage is about and
+        <div class="page-font page-text-con">
+          Elements: <%= Elements %>
+        </div>
+        <div class="page-font page-text-con">
+          <%= Description %>
+        </div>
+      </div>
+      <div class="has-text-centered">
+        <!-- modify the onClick here so it simply reloads the page -->
+        <button class="button is-primary is-medium another" onclick="window.location.reload();">Another</button>
+      </div>
+    </main>
+    <!-- include the Glitch button to show what the webpage is about and
             to make it easier for folks to view source and remix -->
-      <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    </div>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+  </div>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://button.glitch.me/button.js"></script>
+</body>
+
 </html>

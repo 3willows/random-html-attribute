@@ -11,9 +11,10 @@ const getRndPage = () => pages[Math.floor(Math.random() * pages.length)]
 
 app.get("/", (_, res) => {
   const randomPage = getRndPage()
-  const { AttributeName, Elements, Description } = randomPage
+  const { Anchor, AttributeName, Elements, Description } = randomPage
 
   res.render(__dirname + "/views/index", {
+    Anchor: `${Anchor}`,
     AttributeName: `${AttributeName}`,
     Elements: `${Elements}`,
     Description: `${Description}`,
