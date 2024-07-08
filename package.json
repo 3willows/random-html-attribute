@@ -2,7 +2,7 @@
   "name": "random-mdn",
   "version": "0.0.1",
   "description": "Random pages from the MDN JavaScript Docs, delivered fresh to your browser 🌎.",
-  "main": "server.js",
+  "main": "api/index.js",
   "scripts": {
     "start": "nodemon api/index.js"
   },
