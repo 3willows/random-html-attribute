@@ -9,13 +9,16 @@ app.set("view engine", "ejs")
 const pages = require("./data/pages.json")
 const getRndPage = () => pages[Math.floor(Math.random() * pages.length)]
 
-app.get("/", (req, res) =>
+app.get("/", (_, res) => {
+  const randomPage = getRndPage()
+  const { AttributeName, Elements, Description } = randomPage
+
   res.render(__dirname + "/views/index", {
-    AttributeName: `${getRndPage().AttributeName}`,
-    Elements: `${getRndPage().Elements}`,
-    Description: `${getRndPage().Description}`,
+    AttributeName: `${AttributeName}`,
+    Elements: `${Elements}`,
+    Description: `${Description}`,
   })
-)
+})
 
 // listen for requests :)
 
