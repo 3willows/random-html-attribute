@@ -1,0 +1,863 @@
+[
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept",
+    "AttributeName": "accept",
+    "Elements": "<form>, <input>",
+    "Description": "List of types the server accepts, typically a file type.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#accept-charset",
+    "AttributeName": "accept-charset",
+    "Elements": "<form>",
+    "Description": "List of supported charsets.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey",
+    "AttributeName": "accesskey",
+    "Elements": "Global attribute",
+    "Description": "Keyboard shortcut to activate or add focus to the element.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#action",
+    "AttributeName": "action",
+    "Elements": "<form>",
+    "Description": "The URI of a program that processes the information submitted via the form.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes",
+    "AttributeName": "align \nDeprecated",
+    "Elements": "<caption>, <col>, <colgroup>, <hr>, <iframe>, <img>, <table>, <tbody>, <td>, <tfoot>, <th>, <thead>, <tr>",
+    "Description": "Specifies the horizontal alignment of the element.",
+    "Title": "This is no hyperlink to this page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#allow",
+    "AttributeName": "allow",
+    "Elements": "<iframe>",
+    "Description": "Specifies a feature-policy for the iframe.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/alt",
+    "AttributeName": "alt",
+    "Elements": "<area>, <img>, <input>",
+    "Description": "Alternative text in case an image can't be displayed.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#as",
+    "AttributeName": "as",
+    "Elements": "<link>",
+    "Description": "Specifies the type of content being loaded by the link.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#async",
+    "AttributeName": "async",
+    "Elements": "<script>",
+    "Description": "Executes the script asynchronously.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autocapitalize",
+    "AttributeName": "autocapitalize",
+    "Elements": "Global attribute",
+    "Description": "Sets whether input is automatically capitalized when entered by user",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete",
+    "AttributeName": "autocomplete",
+    "Elements": "<form>, <input>, <select>, <textarea>",
+    "Description": "Indicates whether controls in this form can by default have their values automatically completed by the browser.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autoplay",
+    "AttributeName": "autoplay",
+    "Elements": "<audio>, <video>",
+    "Description": "The audio or video should play as soon as possible.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes",
+    "AttributeName": "background",
+    "Elements": "<body>, <table>, <td>, <th>",
+    "Description": "Specifies the URL of an image file.\n\nNote: Although browsers and email clients may still support this attribute, it is obsolete. Use CSS background-image instead.",
+    "Title": "This is no hyperlink to this page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes",
+    "AttributeName": "bgcolor",
+    "Elements": "<body>, <col>, <colgroup>, <marquee>, <table>, <tbody>, <tfoot>, <td>, <th>, <tr>",
+    "Description": "Background color of the element.\n\nNote: This is a legacy attribute. Please use the CSS background-color property instead.",
+    "Title": "This is no hyperlink to this page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes",
+    "AttributeName": "border",
+    "Elements": "<img>, <object>, <table>",
+    "Description": "The border width.\n\nNote: This is a legacy attribute. Please use the CSS border property instead.",
+    "Title": "This is no hyperlink to this page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture",
+    "AttributeName": "capture",
+    "Elements": "<input>",
+    "Description": "From the Media Capture specification, specifies a new file can be captured.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#charset",
+    "AttributeName": "charset",
+    "Elements": "<meta>",
+    "Description": "Declares the character encoding of the page or script.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#checked",
+    "AttributeName": "checked",
+    "Elements": "<input>",
+    "Description": "Indicates whether the element should be checked on page load.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/cite",
+    "AttributeName": "cite",
+    "Elements": "<blockquote>, <del>, <ins>, <q>",
+    "Description": "Contains a URI which points to the source of the quote or change.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class",
+    "AttributeName": "class",
+    "Elements": "Global attribute",
+    "Description": "Often used with CSS to style elements with common properties.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes",
+    "AttributeName": "color",
+    "Elements": "<font>, <hr>",
+    "Description": "This attribute sets the text color using either a named color or a color specified in the hexadecimal #RRGGBB format.\n\nNote: This is a legacy attribute. Please use the CSS color property instead.",
+    "Title": "This is no hyperlink to this page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea#cols",
+    "AttributeName": "cols",
+    "Elements": "<textarea>",
+    "Description": "Defines the number of columns in a textarea.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/colspan",
+    "AttributeName": "colspan",
+    "Elements": "<td>, <th>",
+    "Description": "The colspan attribute defines the number of columns a cell should span.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#content",
+    "AttributeName": "content",
+    "Elements": "<meta>",
+    "Description": "A value associated with http-equiv or name depending on the context.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable",
+    "AttributeName": "contenteditable",
+    "Elements": "Global attribute",
+    "Description": "Indicates whether the element's content is editable.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/controls",
+    "AttributeName": "controls",
+    "Elements": "<audio>, <video>",
+    "Description": "Indicates whether the browser should show playback controls to the user.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area#coords",
+    "AttributeName": "coords",
+    "Elements": "<area>",
+    "Description": "A set of values specifying the coordinates of the hot-spot region.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin",
+    "AttributeName": "crossorigin",
+    "Elements": "<audio>, <img>, <link>, <script>, <video>",
+    "Description": "How the element handles cross-origin requests",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement/csp",
+    "AttributeName": "csp \nExperimental",
+    "Elements": "<iframe>",
+    "Description": "Specifies the Content Security Policy that an embedded document must agree to enforce upon itself.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object#data",
+    "AttributeName": "data",
+    "Elements": "<object>",
+    "Description": "Specifies the URL of the resource.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*",
+    "AttributeName": "data-*",
+    "Elements": "Global attribute",
+    "Description": "Lets you attach custom attributes to an HTML element.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/datetime",
+    "AttributeName": "datetime",
+    "Elements": "<del>, <ins>, <time>",
+    "Description": "Indicates the date and time associated with the element.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#decoding",
+    "AttributeName": "decoding",
+    "Elements": "<img>",
+    "Description": "Indicates the preferred method to decode the image.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track#default",
+    "AttributeName": "default",
+    "Elements": "<track>",
+    "Description": "Indicates that the track should be enabled unless the user's preferences indicate something different.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#defer",
+    "AttributeName": "defer",
+    "Elements": "<script>",
+    "Description": "Indicates that the script should be executed after the page has been parsed.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir",
+    "AttributeName": "dir",
+    "Elements": "Global attribute",
+    "Description": "Defines the text direction. Allowed values are ltr (Left-To-Right) or rtl (Right-To-Left)",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/dirname",
+    "AttributeName": "dirname",
+    "Elements": "<input>, <textarea>",
+    "Description": "",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled",
+    "AttributeName": "disabled",
+    "Elements": "<button>, <fieldset>, <input>, <optgroup>, <option>, <select>, <textarea>",
+    "Description": "Indicates whether the user can interact with the element.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/download",
+    "AttributeName": "download",
+    "Elements": "<a>, <area>",
+    "Description": "Indicates that the hyperlink is to be used for downloading a resource.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable",
+    "AttributeName": "draggable",
+    "Elements": "Global attribute",
+    "Description": "Defines whether the element can be dragged.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#enctype",
+    "AttributeName": "enctype",
+    "Elements": "<form>",
+    "Description": "Defines the content type of the form data when the method is POST.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/enterkeyhint",
+    "AttributeName": "enterkeyhint \nExperimental",
+    "Elements": "<textarea>, contenteditable",
+    "Description": "The enterkeyhint specifies what action label (or icon) to present for the enter key on virtual keyboards. The attribute can be used with form controls (such as the value of textarea elements), or in elements in an editing host (e.g., using contenteditable attribute).",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/for",
+    "AttributeName": "for",
+    "Elements": "<label>, <output>",
+    "Description": "Describes elements which belongs to this one.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/form",
+    "AttributeName": "form",
+    "Elements": "<button>, <fieldset>, <input>, <label>, <meter>, <object>, <output>, <progress>, <select>, <textarea>",
+    "Description": "Indicates the form that is the owner of the element.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formaction",
+    "AttributeName": "formaction",
+    "Elements": "<input>, <button>",
+    "Description": "Indicates the action of the element, overriding the action defined in the <form>.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formenctype",
+    "AttributeName": "formenctype",
+    "Elements": "<button>, <input>",
+    "Description": "If the button/input is a submit button (e.g. type=\"submit\"), this attribute sets the encoding type to use during form submission. If this attribute is specified, it overrides the enctype attribute of the button's form owner.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formmethod",
+    "AttributeName": "formmethod",
+    "Elements": "<button>, <input>",
+    "Description": "If the button/input is a submit button (e.g. type=\"submit\"), this attribute sets the submission method to use during form submission (GET, POST, etc.). If this attribute is specified, it overrides the method attribute of the button's form owner.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formnovalidate",
+    "AttributeName": "formnovalidate",
+    "Elements": "<button>, <input>",
+    "Description": "If the button/input is a submit button (e.g. type=\"submit\"), this boolean attribute specifies that the form is not to be validated when it is submitted. If this attribute is specified, it overrides the novalidate attribute of the button's form owner.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formtarget",
+    "AttributeName": "formtarget",
+    "Elements": "<button>, <input>",
+    "Description": "If the button/input is a submit button (e.g. type=\"submit\"), this attribute specifies the browsing context (for example, tab, window, or inline frame) in which to display the response that is received after submitting the form. If this attribute is specified, it overrides the target attribute of the button's form owner.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/headers",
+    "AttributeName": "headers",
+    "Elements": "<td>, <th>",
+    "Description": "IDs of the <th> elements which applies to this element.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes",
+    "AttributeName": "height",
+    "Elements": "<canvas>, <embed>, <iframe>, <img>, <input>, <object>, <video>",
+    "Description": "Specifies the height of elements listed here. For all other elements, use the CSS height property.\n\nNote: In some instances, such as <div>, this is a legacy attribute, in which case the CSS height property should be used instead.",
+    "Title": "This is no hyperlink to this page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden",
+    "AttributeName": "hidden",
+    "Elements": "Global attribute",
+    "Description": "Prevents rendering of given element, while keeping child elements, e.g. script elements, active.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter#high",
+    "AttributeName": "high",
+    "Elements": "<meter>",
+    "Description": "Indicates the lower bound of the upper range.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/href",
+    "AttributeName": "href",
+    "Elements": "<a>, <area>, <base>, <link>",
+    "Description": "The URL of a linked resource.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/hreflang",
+    "AttributeName": "hreflang",
+    "Elements": "<a>, <link>",
+    "Description": "Specifies the language of the linked resource.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#http-equiv",
+    "AttributeName": "http-equiv",
+    "Elements": "<meta>",
+    "Description": "Defines a pragma directive.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id",
+    "AttributeName": "id",
+    "Elements": "Global attribute",
+    "Description": "Often used with CSS to style a specific element. The value of this attribute must be unique.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity",
+    "AttributeName": "integrity",
+    "Elements": "<link>, <script>",
+    "Description": "Specifies a Subresource Integrity value that allows browsers to verify what they fetch.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#intrinsicsize",
+    "AttributeName": "intrinsicsize \nDeprecated",
+    "Elements": "<img>",
+    "Description": "This attribute tells the browser to ignore the actual intrinsic size of the image and pretend it's the size specified in the attribute.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode",
+    "AttributeName": "inputmode",
+    "Elements": "<textarea>, contenteditable",
+    "Description": "Provides a hint as to the type of data that might be entered by the user while editing the element or its contents. The attribute can be used with form controls (such as the value of textarea elements), or in elements in an editing host (e.g., using contenteditable attribute).",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#ismap",
+    "AttributeName": "ismap",
+    "Elements": "<img>",
+    "Description": "Indicates that the image is part of a server-side image map.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop",
+    "AttributeName": "itemprop",
+    "Elements": "Global attribute",
+    "Description": "",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track#kind",
+    "AttributeName": "kind",
+    "Elements": "<track>",
+    "Description": "Specifies the kind of text track.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/label",
+    "AttributeName": "label",
+    "Elements": "<optgroup>, <option>, <track>",
+    "Description": "Specifies a user-readable title of the element.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang",
+    "AttributeName": "lang",
+    "Elements": "Global attribute",
+    "Description": "Defines the language used in the element.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#language",
+    "AttributeName": "language \nDeprecated",
+    "Elements": "<script>",
+    "Description": "Defines the script language used in the element.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes",
+    "AttributeName": "loading \nExperimental",
+    "Elements": "<img>, <iframe>",
+    "Description": "Indicates if the element should be loaded lazily (loading=\"lazy\") or loaded immediately (loading=\"eager\").",
+    "Title": "This is no hyperlink to this page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#list",
+    "AttributeName": "list",
+    "Elements": "<input>",
+    "Description": "Identifies a list of pre-defined options to suggest to the user.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/loop",
+    "AttributeName": "loop",
+    "Elements": "<audio>, <marquee>, <video>",
+    "Description": "Indicates whether the media should start playing from the start when it's finished.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter#low",
+    "AttributeName": "low",
+    "Elements": "<meter>",
+    "Description": "Indicates the upper bound of the lower range.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max",
+    "AttributeName": "max",
+    "Elements": "<input>, <meter>, <progress>",
+    "Description": "Indicates the maximum value allowed.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/maxlength",
+    "AttributeName": "maxlength",
+    "Elements": "<input>, <textarea>",
+    "Description": "Defines the maximum number of characters allowed in the element.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/minlength",
+    "AttributeName": "minlength",
+    "Elements": "<input>, <textarea>",
+    "Description": "Defines the minimum number of characters allowed in the element.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/media",
+    "AttributeName": "media",
+    "Elements": "<a>, <area>, <link>, <source>, <style>",
+    "Description": "Specifies a hint of the media for which the linked resource was designed.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#method",
+    "AttributeName": "method",
+    "Elements": "<form>",
+    "Description": "Defines which HTTP method to use when submitting the form. Can be GET (default) or POST.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/min",
+    "AttributeName": "min",
+    "Elements": "<input>, <meter>",
+    "Description": "Indicates the minimum value allowed.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple",
+    "AttributeName": "multiple",
+    "Elements": "<input>, <select>",
+    "Description": "Indicates whether multiple values can be entered in an input of the type email or file.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/muted",
+    "AttributeName": "muted",
+    "Elements": "<audio>, <video>",
+    "Description": "Indicates whether the audio will be initially silenced on page load.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/name",
+    "AttributeName": "name",
+    "Elements": "<button>, <form>, <fieldset>, <iframe>, <input>, <object>, <output>, <select>, <textarea>, <map>, <meta>, <param>",
+    "Description": "Name of the element. For example used by the server to identify the fields in form submits.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#novalidate",
+    "AttributeName": "novalidate",
+    "Elements": "<form>",
+    "Description": "This attribute indicates that the form shouldn't be validated when submitted.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/open",
+    "AttributeName": "open",
+    "Elements": "<details>, <dialog>",
+    "Description": "Indicates whether the contents are currently visible (in the case of a <details> element) or whether the dialog is active and can be interacted with (in the case of a <dialog> element).",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter#optimum",
+    "AttributeName": "optimum",
+    "Elements": "<meter>",
+    "Description": "Indicates the optimal numeric value.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern",
+    "AttributeName": "pattern",
+    "Elements": "<input>",
+    "Description": "Defines a regular expression which the element's value will be validated against.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#ping",
+    "AttributeName": "ping",
+    "Elements": "<a>, <area>",
+    "Description": "The ping attribute specifies a space-separated list of URLs to be notified if a user follows the hyperlink.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/placeholder",
+    "AttributeName": "placeholder",
+    "Elements": "<input>, <textarea>",
+    "Description": "Provides a hint to the user of what can be entered in the field.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#playsinline",
+    "AttributeName": "playsinline",
+    "Elements": "<video>",
+    "Description": "A Boolean attribute indicating that the video is to be played \"inline\"; that is, within the element's playback area. Note that the absence of this attribute does not imply that the video will always be played in fullscreen.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#poster",
+    "AttributeName": "poster",
+    "Elements": "<video>",
+    "Description": "A URL indicating a poster frame to show until the user plays or seeks.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/preload",
+    "AttributeName": "preload",
+    "Elements": "<audio>, <video>",
+    "Description": "Indicates whether the whole resource, parts of it or nothing should be preloaded.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly",
+    "AttributeName": "readonly",
+    "Elements": "<input>, <textarea>",
+    "Description": "Indicates whether the element can be edited.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/referralpolicy",
+    "AttributeName": "referrerpolicy",
+    "Elements": "<a>, <area>, <iframe>, <img>, <link>, <script>",
+    "Description": "Specifies which referrer is sent when fetching the resource.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel",
+    "AttributeName": "rel",
+    "Elements": "<a>, <area>, <link>",
+    "Description": "Specifies the relationship of the target object to the link object.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required",
+    "AttributeName": "required",
+    "Elements": "<input>, <select>, <textarea>",
+    "Description": "Indicates whether this element is required to fill out or not.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol#reversed",
+    "AttributeName": "reversed",
+    "Elements": "<ol>",
+    "Description": "Indicates whether the list should be displayed in a descending order instead of an ascending order.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles",
+    "AttributeName": "role",
+    "Elements": "Global attribute",
+    "Description": "Defines an explicit role for an element for use by assistive technologies.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea#rows",
+    "AttributeName": "rows",
+    "Elements": "<textarea>",
+    "Description": "Defines the number of rows in a text area.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rowspan",
+    "AttributeName": "rowspan",
+    "Elements": "<td>, <th>",
+    "Description": "Defines the number of rows a table cell should span over.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#sandbox",
+    "AttributeName": "sandbox",
+    "Elements": "<iframe>",
+    "Description": "Stops a document loaded in an iframe from using certain features (such as submitting forms or opening new windows).",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#scope",
+    "AttributeName": "scope",
+    "Elements": "<th>",
+    "Description": "Defines the cells that the header test (defined in the th element) relates to.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style#scoped",
+    "AttributeName": "scoped \nNon-standard\n \nDeprecated",
+    "Elements": "<style>",
+    "Description": "",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option#selected",
+    "AttributeName": "selected",
+    "Elements": "<option>",
+    "Description": "Defines a value which will be selected on page load.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/shape",
+    "AttributeName": "shape",
+    "Elements": "<a>, <area>",
+    "Description": "",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size",
+    "AttributeName": "size",
+    "Elements": "<input>, <select>",
+    "Description": "Defines the width of the element (in pixels). If the element's type attribute is text or password then it's the number of characters.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/sizes",
+    "AttributeName": "sizes",
+    "Elements": "<link>, <img>, <source>",
+    "Description": "",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/slot",
+    "AttributeName": "slot",
+    "Elements": "Global attribute",
+    "Description": "Assigns a slot in a shadow DOM shadow tree to an element.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/span",
+    "AttributeName": "span",
+    "Elements": "<col>, <colgroup>",
+    "Description": "",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/spellcheck",
+    "AttributeName": "spellcheck",
+    "Elements": "Global attribute",
+    "Description": "Indicates whether spell checking is allowed for the element.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/src",
+    "AttributeName": "src",
+    "Elements": "<audio>, <embed>, <iframe>, <img>, <input>, <script>, <source>, <track>, <video>",
+    "Description": "The URL of the embeddable content.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#srcdoc",
+    "AttributeName": "srcdoc",
+    "Elements": "<iframe>",
+    "Description": "",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track#srclang",
+    "AttributeName": "srclang",
+    "Elements": "<track>",
+    "Description": "",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/srcset",
+    "AttributeName": "srcset",
+    "Elements": "<img>, <source>",
+    "Description": "One or more responsive image candidates.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol#start",
+    "AttributeName": "start",
+    "Elements": "<ol>",
+    "Description": "Defines the first number if other than 1.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/step",
+    "AttributeName": "step",
+    "Elements": "<input>",
+    "Description": "",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style",
+    "AttributeName": "style",
+    "Elements": "Global attribute",
+    "Description": "Defines CSS styles which will override styles previously set.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#summary",
+    "AttributeName": "summary \nDeprecated",
+    "Elements": "<table>",
+    "Description": "",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex",
+    "AttributeName": "tabindex",
+    "Elements": "Global attribute",
+    "Description": "Overrides the browser's default tab order and follows the one specified instead.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/target",
+    "AttributeName": "target",
+    "Elements": "<a>, <area>, <base>, <form>",
+    "Description": "Specifies where to open the linked document (in the case of an <a> element) or where to display the response received (in the case of a <form> element)",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title",
+    "AttributeName": "title",
+    "Elements": "Global attribute",
+    "Description": "Text to be displayed in a tooltip when hovering over the element.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/translate",
+    "AttributeName": "translate",
+    "Elements": "Global attribute",
+    "Description": "Specify whether an element's attribute values and the values of its Text node children are to be translated when the page is localized, or whether to leave them unchanged.",
+    "Title": ""
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/type",
+    "AttributeName": "type",
+    "Elements": "<button>, <input>, <embed>, <object>, <ol>, <script>, <source>, <style>, <menu>, <link>",
+    "Description": "Defines the type of the element.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/usemap",
+    "AttributeName": "usemap",
+    "Elements": "<img>, <input>, <object>",
+    "Description": "",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/value",
+    "AttributeName": "value",
+    "Elements": "<button>, <data>, <input>, <li>, <meter>, <option>, <progress>, <param>",
+    "Description": "Defines a default value which will be displayed in the element on page load.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/width",
+    "AttributeName": "width",
+    "Elements": "<canvas>, <embed>, <iframe>, <img>, <input>, <object>, <video>",
+    "Description": "For the elements listed here, this establishes the element's width.\n\nNote: For all other instances, such as <div>, this is a legacy attribute, in which case the CSS width property should be used instead.",
+    "Title": "This is a link to an unwritten page"
+  },
+  {
+    "Anchor": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea#wrap",
+    "AttributeName": "wrap",
+    "Elements": "<textarea>",
+    "Description": "Indicates whether the text should be wrapped.",
+    "Title": ""
+  }
+]
