@@ -9,11 +9,14 @@ Fork of this project by Andrew Healey: [A Tiny Project, From Inception to Deploy
 -  ```getNewPages.js``` now tracks [this page](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) rather than the [original page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Index) (no longer maintained by MDN).
 
 
-#### Improvement ideas (from Andrew's original project)
-
+#### Improvement ideas 
+- use something more sophisticated than page reload to get new HTML attribute
+## from Andrew's original project
 - Move the scraping to a cron job
 - Address the ~1/900 chance of getting the same page twice
   - Perhaps a client-side re-request?
+
+
 <br>
 
 All credits to [@healeycodes](https://twitter.com/healeycodes)
