@@ -9,11 +9,15 @@ app.set("view engine", "ejs")
 const pages = require("./data/pages.json")
 const getRndPage = () => pages[Math.floor(Math.random() * pages.length)]
 
+app.get("/test", (_, res) => {
+  res.send("test")
+})
+
 app.get("/", (_, res) => {
   const randomPage = getRndPage()
   const { Anchor, AttributeName, Elements, Description, Title } = randomPage
 
-  res.render(__dirname + "/views/index", {
+  res.render(__dirname + "/views/index.ejs", {
     Anchor: `${Anchor}`,
     AttributeName: `${AttributeName}`,
     Elements: `${Elements}`,
