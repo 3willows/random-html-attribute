@@ -23,11 +23,11 @@ const puppeteer = require("puppeteer")
     chunkRows.forEach((row) => {
       const a = row[0].querySelector("a")
       const page = {
-        Anchor: `${a}`, 
+        Anchor: `${a? a: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes"}`, 
         AttributeName: `${row[0]?.innerText}`,
         Elements: `${row[1]?.innerText}`,
         Description: `${row[2]?.innerText}`,
-        Title: `${a?.title}`
+        Title: `${a? a?.title : "This is no hyperlink to this page"}`
       }
       pageEntries.push(page)
     })
